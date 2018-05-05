@@ -1,4 +1,5 @@
 class Dog
+  #initialize and set breed's default
   def initialize(name, breed="Mutt")
     @name = name
     @breed = breed
@@ -11,6 +12,4 @@ class Dog
   def breed()
     @breed
   end
-  
-  
 end
